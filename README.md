@@ -18,15 +18,13 @@ This bot is intended for **educational purposes only**. Unauthorized use on netw
 This repository contains the following files:
 
 ### **1. Main Code**
-- `NetworkDeviceBot.ps1`: The core PowerShell script containing the bot's functionality.
-- `Modules/`: Additional PowerShell modules that support the bot's operations.
+- `NDM.ps1`: The core PowerShell script containing the bot's functionality.
 
 ### **2. Example Usage**
-- `examples.ps1`: A script demonstrating how to initialize and use the bot's features.
-- `config.json`: A sample configuration file for defining network parameters and authentication settings.
+- `Example Use.ps1`: A script demonstrating how to initialize and use the bot's features.
 
 ### **3. Documentation**
-- `NetworkDeviceBot_Guide.pdf`: A detailed PDF explaining how the bot works, including setup, commands, and best practices.
+- `PowerShell Bot Explanation.pdf`: A detailed PDF explaining how the bot works, including setup, commands, and best practices.
 - `README.md` (this file): Overview of the repository and usage instructions.
 
 ---
