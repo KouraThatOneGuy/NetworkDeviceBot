@@ -29,27 +29,11 @@ This repository contains the following files:
 
 ---
 
-## Installation & Setup
 ### **Prerequisites**
 - Windows with PowerShell 5.1 or later.
 - Administrator privileges for certain operations (e.g., WMI queries, remote PowerShell execution).
 - OpenSSH installed for SSH functionality.
 
-### **Usage**
-1. Clone the repository:
-   ```powershell
-   git clone https://github.com/yourusername/NetworkDeviceBot.git
-   cd NetworkDeviceBot
-   ```
-
-2. Run the bot:
-   ```powershell
-   .\NetworkDeviceBot.ps1
-   ```
-
-3. Use example commands from `examples.ps1` to interact with network devices.
-
----
 
 ## Features & Commands
 ### **Device Connectivity Check**
