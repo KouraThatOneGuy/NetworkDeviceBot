@@ -8,6 +8,11 @@
 - Port scanning
 - Shared folder access
 - Credential management for authenticated operations
+- **Automated backup management**
+- **Logging system for network events**
+- **Machine learning model integration for network analysis**
+- **Web dashboard for real-time monitoring**
+- **Task scheduling for automated operations**
 
 This bot is intended for **educational purposes only**. Unauthorized use on networks without permission may violate cybersecurity laws.
 
@@ -33,7 +38,7 @@ This repository contains the following files:
 - Windows with PowerShell 5.1 or later.
 - Administrator privileges for certain operations (e.g., WMI queries, remote PowerShell execution).
 - OpenSSH installed for SSH functionality.
-
+- **Python environment for ML model execution (if using anomaly detection).**
 
 ## Features & Commands
 ### **Device Connectivity Check**
@@ -73,6 +78,33 @@ $wmiInfo = $bot.GetWMIInfo("192.168.1.10")
 ```
 Fetches system information using SNMP or WMI queries.
 
+### **Automated Backups**
+```powershell
+$bot.CreateBackup("C:\BackupLocation")
+```
+Stores a backup of critical network data in the configured backup directory.
+
+### **Logging System**
+```powershell
+$bot.LogEvent("Network scan completed successfully.")
+```
+Saves network events and errors to log files in `C:\NetworkDeviceBot\Logs`.
+
+### **Machine Learning Anomaly Detection**
+```powershell
+$bot.RunMLAnalysis("network_traffic.log")
+```
+Analyzes network traffic using an integrated ML model stored at `C:\NetworkDeviceBot\MLModel.pkl`.
+
+### **Web Dashboard**
+Runs a monitoring dashboard accessible at `http://localhost:8080`.
+
+### **Task Scheduling**
+```powershell
+$bot.ScheduleTask("DailyScan", { $bot.ScanNetwork() }, "12:00AM")
+```
+Schedules recurring network scans or other automated operations.
+
 ---
 
 ## Security & Compliance
@@ -80,6 +112,8 @@ Fetches system information using SNMP or WMI queries.
 - **Centralized authentication management** ensures secure credential handling.
 - **Error handling mechanisms** prevent crashes and unauthorized access.
 - **Secure communication protocols** (WinRM, SSH, SNMP) are used where applicable.
+- **Automated backups ensure data is protected against loss.**
+- **Logging system provides an audit trail of network activities.**
 
 ---
 
@@ -93,6 +127,8 @@ Fetches system information using SNMP or WMI queries.
 - Logging and reporting of scan results.
 - GUI interface for easier interaction.
 - Customizable port scanning range.
+- **Enhanced ML-based anomaly detection.**
+- **Expanded task automation capabilities.**
 
 ---
 
