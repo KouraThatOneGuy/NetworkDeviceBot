@@ -8,11 +8,11 @@
 - Port scanning
 - Shared folder access
 - Credential management for authenticated operations
-- **Automated backup management**
-- **Logging system for network events**
-- **Machine learning model integration for network analysis**
-- **Web dashboard for real-time monitoring**
-- **Task scheduling for automated operations**
+- Automated backup management
+- Logging system for network events
+- Machine learning model integration for network analysis
+- Web dashboard for real-time monitoring
+- Task scheduling for automated operations
 
 This bot is intended for **educational purposes only**. Unauthorized use on networks without permission may violate cybersecurity laws.
 
