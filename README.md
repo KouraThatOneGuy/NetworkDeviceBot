@@ -141,5 +141,3 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 - Contributions are welcome! Please submit a pull request.
 - For issues or feature requests, open an issue on GitHub.
 
-Enjoy exploring **NetworkDeviceBot** responsibly! 🚀
-
